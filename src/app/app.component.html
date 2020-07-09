@@ -1,0 +1,14 @@
+<h1>Angular Charts App</h1>
+<!-- This nav gives you links to click, which tells the router which route to use (defined in the routes constant in  AppRoutingModule) -->
+<nav>
+  <ul>
+    <li><a routerLink="/line" routerLinkActive="active">Line chart</a></li>
+    <li><a routerLink="/bar" routerLinkActive="active">Bar chart</a></li>
+    <li><a routerLink="/doghnut" routerLinkActive="active">Doghnut chart</a></li>
+    <li><a routerLink="/bubble" routerLinkActive="active">Bubble chart</a></li>
+    <li><a routerLink="/pie" routerLinkActive="active">Pie chart</a></li>
+    <li><a routerLink="/radar" routerLinkActive="active">Radar chart</a></li>
+  </ul>
+</nav>
+<!-- The routed views render in the <router-outlet>-->
+<router-outlet></router-outlet>
